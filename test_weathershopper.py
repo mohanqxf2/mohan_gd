@@ -18,5 +18,5 @@ driver.maximize_window()
 driver.get("http://weathershopper.pythonanywhere.com/moisturizer")
 # Find the element containing in page
 text_aloe = driver.find_element_by_xpath("//div[contains(@class,'text-center col-4')]")
-
+#new comment added here
 price_aloe = table.find_elements_by_xpath("//p[contains(text(),'Price')]")
